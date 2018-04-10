@@ -39,12 +39,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
-	<script type="text/javascript">
+<script>
 	// I used Two functions here.  Starter idea at: 
 	// https://codepen.io/ColleenEMc/pen/XmZzWw
 	$(document).ready(function(){ 
 		$(".preview" ).on('focus mouseover',function() {
-=
+
         $("#image").text($(this).attr("alt"));
         $("#image").css('background-image', 'url("' + $(this).attr("src") + '")');
         })
